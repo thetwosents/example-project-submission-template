@@ -1,0 +1,43 @@
+{
+    "name": "my-web3-test-example-project",
+    "version": "1.0.0",
+    "description": "A sample JSON script for submitting your project to the DAO",
+    "main": "index.js",
+    "scripts": {
+        "load": "node load.js",
+        "restart": "node restart.js",
+        "start": "node start.js",
+        "stop": "node stop.js",
+        "eject": "node eject.js",
+        "verify": "node verify.js",
+        "archive": "node archive.js",
+        "compress": "node compress.js",
+        "deploy": "node deploy.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "web3": "^1.0.0"
+    },
+    "devDependencies": {
+        "web3": "^1.0.0"
+    },
+    "peerDependencies": {
+        "web3": "^1.0.0"
+    },
+    "keywords": [
+        "web3"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+"
+    },
+    "bugs": {
+        "url": "!"
+    },
+    "homepage": "!",
+    "engines": {
+        "node": "12.22.0"
+    }
+}
